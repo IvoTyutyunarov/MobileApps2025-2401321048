@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *.iml
 .gradle
 /local.properties
@@ -13,3 +14,45 @@
 .externalNativeBuild
 .cxx
 local.properties
+=======
+# Gradle files
+.gradle/
+build/
+*/build/
+!gradle-wrapper.jar
+
+# Local configuration
+local.properties
+*.iml
+
+# Android Studio
+.idea/
+*.iws
+*.ipr
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/caches
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+
+# Keystore files
+*.jks
+*.keystore
+
+# Logs
+*.log
+
+# Generated APKs / Bundles
+*.apk
+*.ap_ 
+*.aab
+
+# External native build
+.externalNativeBuild
+
+# IntelliJ
+out/
+>>>>>>> d905e91aea2aac64d62f534b346a4f6fb8244d86
